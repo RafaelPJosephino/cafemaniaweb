@@ -1,0 +1,44 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw 1vh;
+}
+.content .c-image {
+    width: 10vw;
+    height: 15vh;
+    min-width:  150px;
+    min-height: 110px;
+    border: 3px solid goldenrod;
+    border-radius: 5px;
+}
+.content .c-image img {
+    width: 100%;
+    height: 100%;
+}
+.content .t-n-p{
+    margin-left: 20px;
+    width: 1000px;
+}
+.content .t-n-p .header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dotted #182433;
+  padding: 0px 5px;
+}
+.content .t-n-p .title {
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.content .t-n-p .price {
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: var(--golden);
+    word-spacing: 2px;
+}
+.content .t-n-p .des p{
+    font-size: 0.9rem;
+    margin-block-start:5px ;
+    margin-block-end:5px ;    
+}
